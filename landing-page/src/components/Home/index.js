@@ -1,4 +1,5 @@
 import React from 'react';
+import Banner from '../Banner';
 import { 
     Container, 
     NavBar, 
@@ -50,9 +51,9 @@ function Home(){
                     </ContentImage>
 
                 </Content>
+                <Banner />
             </Main>
 
-            
         </Container>
     );
 };
