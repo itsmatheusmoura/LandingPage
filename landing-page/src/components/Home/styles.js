@@ -1,10 +1,12 @@
 import styled from 'styled-components';
 
+
 export const Container = styled.div`
     width: 100%;
     height: 100%;
     background-image: linear-gradient(rgba(105,199,163, 0.2), #FFFFFF);
-    height: 100vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
 `;
 
 export const Main = styled.div`
@@ -132,3 +134,44 @@ export const ContentImage = styled.div`
         margin-top: 55px;
     }
 `;
+
+export const Box = styled.div`
+    background-color: rgba(240, 99, 184, 0.2);
+    border-radius: 25px;
+    margin-bottom: 150px;
+    margin-top: -100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 900px;
+    margin: -100px auto 150px;
+    height: 400px;
+
+    img{
+        width: 30%;
+        margin-right: 15px;
+    }
+
+    p{
+        font-family: Lato, sans-serif;
+        margin-top: 10px;
+        font-size: 15px;
+        font-weight: 300;
+    }
+`;
+
+export const TextContainer = styled.div`
+    width: 50%;
+
+    h1{
+        font-family: Helvetica, sans-serif;
+        color: #212353;
+    }
+
+    p{
+        font-family: Lato, sans-serif;
+    }
+`;  
+
+export const Features = styled.div``;
