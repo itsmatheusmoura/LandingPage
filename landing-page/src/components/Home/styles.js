@@ -174,4 +174,97 @@ export const TextContainer = styled.div`
     }
 `;  
 
-export const Features = styled.div``;
+export const Features = styled.div`
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    margin-bottom: 150px;
+
+    font-family: Lato, sans-serif;
+
+    div{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-basis: 500px;
+        flex-wrap: wrap;
+    }
+`;
+
+export const FeaturesDescription = styled.section`
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 85px;
+    max-width: 500px;
+    
+    h1{
+        color: #212353;
+        margin-bottom: 25px;
+    }
+
+    p{
+        color: #4B5D68;
+        font-size: 15px;
+        text-align: center;
+    }
+
+`;
+
+export const Feature = styled.section`
+    display: flex;
+    max-width: 450px;
+    width: 100%;
+    margin-right: 10px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 155px;
+`;
+
+export const FeatureImage = styled.div`
+    img{
+        width: 70%;
+ 
+    }
+`;
+
+
+export const FeatureDetail = styled.div`
+    display: flex;
+    flex-direction: row;
+    margin-right: 10px;
+    align-items: center;
+    justify-content: center;
+    font-family: Lato, sans-serif;
+
+    h2{
+        font-size: 16px;
+        margin-bottom: 5px;
+        color: #212353;
+    }
+
+    p{
+        font-size: 11px;
+        font-weight: 300;
+        color: #4B5D68;
+        margin-bottom: 15px
+    }
+
+    a{
+        text-decoration: none;
+        font-size: 15px;
+        color: #212353;
+        cursor: pointer;
+    }
+
+    img{
+        position: absolute;
+        width: 100%;
+        max-width: 450px;
+        height: 100%;
+        max-height: 240px;
+    }
+`;

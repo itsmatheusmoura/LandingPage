@@ -10,11 +10,17 @@ import {
     ContentText,
     Box,
     TextContainer,
-    Features
+    Features,
+    Feature,
+    FeatureDetail,
+    FeatureImage,
+    FeaturesDescription
  } from './styles';
 import Logo from '../../assets/logo.svg';
 import HeroImage from '../../assets/mainImage.svg';
 import BannerImage from '../../assets/image2.svg';
+import Feature1 from '../../assets/feature1.svg';
+import Rectangle from '../../assets/Rectangle 39.svg';
 
 import { AiOutlineArrowRight } from 'react-icons/ai';
 
@@ -56,7 +62,7 @@ function Home(){
                 </Content>
 
                 <Box>
-                    <img src={BannerImage} alt=""/>
+                    <img src={BannerImage} alt="TEste"/>
 
                     <TextContainer>
                         <h1>We are a high-level data storage bank</h1>
@@ -70,7 +76,125 @@ function Home(){
                 </Box>
 
                 <Features>
+                    <FeaturesDescription>
+                        <h1>Features</h1>
+                        <p>
+                            Some of the features and advantages that we provide for those of you who 
+                            store data in this Data Warehouse.
+                        </p>
+                    </FeaturesDescription>
                     
+                    <div>
+                    <Feature>
+                        <FeatureImage>
+                            <img src={Feature1} alt="teste"/>
+                        </FeatureImage>
+
+                        <FeatureDetail>
+                            <img src={Rectangle} alt="teste"/>
+                            <h2>Search Data</h2>
+                            <p>
+                                Don’t worry if your data is very large, 
+                                the Data Warehoue provides a search engine, 
+                                which is useful for making it easier to find 
+                                data effectively saving time.
+                            </p>
+                            <a href="/">Learn More</a>
+                        </FeatureDetail>
+                    </Feature>
+
+                    <Feature>
+                        <FeatureImage>
+                            <img src={Feature1} alt=""/>
+                        </FeatureImage>
+
+                        <FeatureDetail>
+                            <img src={Rectangle} alt=""/>
+                            <h2>Search Data</h2>
+                            <p>
+                                Don’t worry if your data is very large, 
+                                the Data Warehoue provides a search engine, 
+                                which is useful for making it easier to find 
+                                data effectively saving time.
+                            </p>
+                            <a href="/">Learn More</a>
+                        </FeatureDetail>
+                    </Feature>
+
+                    <Feature>
+                        <FeatureImage>
+                            <img src={Feature1} alt=""/>
+                        </FeatureImage>
+
+                        <FeatureDetail>
+                            <img src={Rectangle} alt=""/>
+                            <h2>Search Data</h2>
+                            <p>
+                                Don’t worry if your data is very large, 
+                                the Data Warehoue provides a search engine, 
+                                which is useful for making it easier to find 
+                                data effectively saving time.
+                            </p>
+                            <a href="/">Learn More</a>
+                        </FeatureDetail>
+                    </Feature>
+
+                    <Feature>
+                        <FeatureImage>
+                            <img src={Feature1} alt=""/>
+                        </FeatureImage>
+
+                        <FeatureDetail>
+                            <img src={Rectangle} alt=""/>
+                            <h2>Search Data</h2>
+                            <p>
+                                Don’t worry if your data is very large, 
+                                the Data Warehoue provides a search engine, 
+                                which is useful for making it easier to find 
+                                data effectively saving time.
+                            </p>
+                            <a href="/">Learn More</a>
+                        </FeatureDetail>
+                    </Feature>
+
+                    <Feature>
+                        <FeatureImage>
+                            <img src={Feature1} alt=""/>
+                        </FeatureImage>
+
+                        <FeatureDetail>
+                            <img src={Rectangle} alt=""/>
+                            <h2>Search Data</h2>
+                            <p>
+                                Don’t worry if your data is very large, 
+                                the Data Warehoue provides a search engine, 
+                                which is useful for making it easier to find 
+                                data effectively saving time.
+                            </p>
+                            <a href="/">Learn More</a>
+                        </FeatureDetail>
+                    </Feature>
+
+                    <Feature>
+                        <FeatureImage>
+                            <img src={Feature1} alt=""/>
+                        </FeatureImage>
+
+                        <FeatureDetail>
+                            <img src={Rectangle} alt=""/>
+                            <h2>Search Data</h2>
+                            <p>
+                                Don’t worry if your data is very large, 
+                                the Data Warehoue provides a search engine, 
+                                which is useful for making it easier to find 
+                                data effectively saving time.
+                            </p>
+                            <a href="/">Learn More</a>
+                        </FeatureDetail>
+                    </Feature>
+                    
+                    </div>
+                   
                 </Features>
                 
             </Main>
